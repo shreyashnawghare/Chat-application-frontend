@@ -15,7 +15,7 @@ const handleAuth = (email) => {
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/register" element={<Register />} />
+      <Route path="/Register" element={<Register />} />
       <Route path="/login" element={<Login handleAuth={handleAuth} />} />
       <Route
         path="/"
